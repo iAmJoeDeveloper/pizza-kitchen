@@ -1,23 +1,15 @@
 import React from 'react'
+import Button from './components/Button'
+import Header from './components/Header'
 
 function App() {
 	return (
 		<div className='App'>
-			<header className='App-header'>
-				<nav>
-					<img src='logo' alt='' />
-					<ul>
-						<li>CONTACT</li>
-						<li>ABOUT US </li>
-						<li>SIGN UP / LOGIN</li>
-					</ul>
-					<li>LIGTH/DARK</li>
-				</nav>
-			</header>
+			<Header />
 			<main>
 				<div className='container'>
 					<h1>Welcome To Pizza Kitchen</h1>
-					<button>CREATE YOUR PIZZA</button>
+					<Button>CREATE YOUR PIZZA</Button>
 				</div>
 			</main>
 		</div>
