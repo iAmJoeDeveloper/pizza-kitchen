@@ -7,10 +7,10 @@ function App() {
 		<div className='App'>
 			<Header />
 			<main>
-				<div className='container'>
+				{/* <div className='container'>
 					<h1>Welcome To Pizza Kitchen</h1>
 					<Button>CREATE YOUR PIZZA</Button>
-				</div>
+				</div> */}
 			</main>
 		</div>
 	)
